@@ -10,12 +10,15 @@ I made this because I highly dislike the new Big Sur app icons and it's also an 
 <img alt="Screenshot2" style="width:50%" src="./Screenshot%202021-06-06%20at%2019.11.40.png" />
 </div>
 
-### Installation and usage
+### Installation
 1. Git clone this.
 2. Change `FOLDER` on line 1 or create a folder **backup_icons** in Documents, storing your icons.
 3. Open Terminal, cd in the directory where icon-rollbacker is.
 4. `./icon-rollbacker.sh` to start it.
 5. Done!
+
+### Usage
+Inside of the folder specified you will need to place the .icns file named as the Application you want to change.
 
 ### Compatibility
 Tested on the latest version of OS X Catalina. Should work on earlier OS X versions too, not sure about the Big Sur app icons limitations.
