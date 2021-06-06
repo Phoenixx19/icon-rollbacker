@@ -49,6 +49,8 @@ function astolfo {
             sudo cp -v "$FOLDER/$currenticon" "/Applications/$currentapp/Contents/Resources/$iconfile"
             echo "[$currentapp] Finalizing..."
             touch "/Applications/$currentapp"
+            echo "[$currentapp] Refreshing app..."
+            killall "$line" || echo "[$currentapp] No need to refresh, app is already off."
 
     done < "$input"
     echo "\nRestarting Dock and Finder..."
