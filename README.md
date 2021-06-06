@@ -18,7 +18,7 @@ I made this because I highly dislike the new Big Sur app icons and it's also an 
 Tested on the latest version of OS X Catalina. Should work on earlier OS X versions too, not sure about the Big Sur app icons limitations.
 
 ### Known issues
-- Adobe and Office programs are known to not work with this shell script. [Workaround to get the icons working.](./WORKAROUND.md)
+- Adobe and Office programs are known to not work with this shell script. <br>[__Workaround to get the icons working.__](./WORKAROUND.md)
 
 ### License
 GPL, I guess. 🤷
