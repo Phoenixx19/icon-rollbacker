@@ -5,10 +5,7 @@ Rollback or change icons of your apps from a simple folder.
 ## Why? 
 I made this because I highly dislike the new Big Sur app icons and it's also an hassle to change all app icons. So I sped up the process with this!
 
-<div style="display: flex;">
-<img alt="Screenshot1" style="width:50%" src="./Screenshot%202021-06-06%20at%2019.10.58.png" />
-<img alt="Screenshot2" style="width:50%" src="./Screenshot%202021-06-06%20at%2019.11.40.png" />
-</div>
+<img alt="Screenshot1" src="./Screenshot%202021-06-06%20at%2019.10.58.png" />
 
 ### Installation and usage
 1. Git clone this.
@@ -22,3 +19,6 @@ Tested on the latest version of OS X Catalina. Should work on earlier OS X versi
 
 ### Known issues
 - Adobe and Office programs are known to not work with this shell script. [Workaround to get the icons working.](./WORKAROUND.md)
+
+### License
+GPL, I guess. 🤷
