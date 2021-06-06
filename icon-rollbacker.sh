@@ -52,7 +52,7 @@ function astolfo {
 
     done < "$input"
     echo "\nRestarting Dock and Finder..."
-    sudo killall Finder && sudo killall Finder
+    sudo killall Dock && sudo killall Finder
     echo "Done."
     return 1;
 }
