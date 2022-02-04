@@ -46,7 +46,7 @@ function astolfo {
             local currentapp="$line.app"
             echo "[$currentapp] Rollbacking from old icon..."
             local iconfile=`defaults read /Applications/"$currentapp"/Contents/Info CFBundleIconFile`
-            sudo cp -v "$FOLDER/$currenticon" "/Applications/$currentapp/Contents/Resources/$iconfile"
+            cp -v "$FOLDER/$currenticon" "/Applications/$currentapp/Contents/Resources/$iconfile"
             echo "[$currentapp] Finalizing..."
             touch "/Applications/$currentapp"
             echo "[$currentapp] Refreshing app..."
@@ -54,7 +54,7 @@ function astolfo {
 
     done < "$input"
     echo "\nRestarting Dock and Finder..."
-    sudo killall Dock && sudo killall Finder
+    killall Dock && killall Finder
     echo "Done."
     return 1;
 }

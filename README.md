@@ -1,4 +1,4 @@
-# icon-rollbacker (OS X only)
+# icon-rollbacker (OS X only) <img src ="https://raw.githubusercontent.com/Phoenixx19/icon-rollbacker/main/icon.png" width="80px" alt="logo" align ="right">
 
 Rollback or change icons of your apps from a simple folder.
 
